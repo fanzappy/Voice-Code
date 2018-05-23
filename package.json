@@ -1,0 +1,26 @@
+{
+  "name": "voice",
+  "version": "1.0.0",
+  "description": "[Google Cloud Shell](https://cloud.google.com/shell/docs/) is a hosted development environment managing resources hosted on Google Cloud Platform.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoogleCloudPlatform/cloud-shell-tutorials.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GoogleCloudPlatform/cloud-shell-tutorials/issues"
+  },
+  "homepage": "https://github.com/GoogleCloudPlatform/cloud-shell-tutorials#readme",
+  "dependencies": {
+    "@google-cloud/language": "^1.2.0",
+    "@google-cloud/speech": "^1.5.0",
+    "@google-cloud/storage": "^1.7.0",
+    "got": "^8.3.1",
+    "twilio": "^3.17.0"
+  }
+}
